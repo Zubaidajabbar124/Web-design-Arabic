@@ -1,0 +1,206 @@
+.header{
+top: 0 !important;
+z-index: 1 !important;
+background-color: white;
+position: fixed !important;
+z-index: 1;
+right: 0;
+}
+.nav-link{
+padding-top: 36px;
+width: 150px;
+color: var(--red);
+text-align: center;
+font: normal normal 800 15px/17px Almarai;
+letter-spacing: 0px;
+color: #AF151F;
+opacity: 1;
+
+}
+
+.logo
+{
+top: 29px;
+width: 93px;
+height: 31px;
+opacity: 1;
+}
+.logo1
+{
+
+width: 93px;
+
+opacity: 1;
+}
+.hero_section1{
+color: black;
+font-weight: bold;
+
+padding-bottom: 100px;
+border-radius: 5px;
+background-color: red;
+}
+
+.hero_section2{
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 4px;
+    
+    
+    }
+
+    .hero_video{
+        background-image: url("image9.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px;
+       
+        color: white;
+        
+
+    }
+
+    .helo{
+        margin-top: 20px;
+        
+        padding-top: 50px;
+        border-radius: 10px;
+        text-align: right;
+        padding-top: 200px;
+        border: 1px solid gray;
+
+
+    }
+    .helo2{
+        margin-top: 20px;
+        padding-top: 50px;
+        border-radius: 10px;
+        text-align: right;
+        padding-top: 200px;
+        border-bottom: 1px solid gray;
+
+
+    }
+.button{
+    border-radius: 5px;
+    background-color: #AF151F;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: transparent;
+    color: white;
+    font-size: 12px;  
+}
+
+.button2{
+    border-radius: 5px;
+    background-color: #AF151F;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: transparent;
+    color: white;
+    font-size: 12px;  
+}
+
+.button3{
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 12px;  
+}
+
+div2 li::before {
+    text-align: right;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-weight: bolder;
+    width: 20px;
+    content: "✓";
+    border-radius: 50%;
+    float:right;
+    }
+
+    div1 a::before {
+        text-align: right;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: green;
+        font-weight: bolder;
+        width: 20px;
+        content: "✓";
+        border-radius: 50%;
+        float:right;
+        }
+
+        hr.solid {
+            border-top: 1px solid #bbb;
+          }
+          
+
+.icons{
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.icons1{
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    padding: 3px;
+    float: left !important;
+}
+
+.icons2{
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.home{
+   border: 1px solid rgb(206, 205, 205);
+   border-radius: 10px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+
+.list{
+   
+        background-color: rgb(207, 207, 207);
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+}
+
+#grad1 {
+   
+    padding-top: 50px;
+    background-color: #AF151F; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to left, #AF151F , #3d0509);
+  }
